@@ -1,0 +1,268 @@
+header {
+    background-image: linear-gradient(rgba(37, 45, 65, 0.7), rgba(37, 45, 65, 0.7)), url('https://websitedemos.net/wedding-planner-04/wp-content/uploads/sites/147/2019/11/about-bg.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 120vh;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.hero-text > h1{
+    font-size: 80px;
+    line-height: 112px;
+    font-weight: 700;
+    font-family: "Libre Baskerville", serif;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+
+/* Looking for perfection section */
+
+/* Setting the container */
+#perfection-container{
+    background-color: #f6f6f6;
+    width: 100%;
+    height: 110vh;
+    margin-bottom: 30px;
+}
+
+#perfection-container, #perf-item1, .perf-item2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#perf-item1{
+    text-align: center;
+    width: 600px;
+    margin-bottom: 2.5rem;
+}
+
+#perf-item2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 16%;
+}
+
+.perf-item2{
+    text-align: center;
+}
+
+/* Styling its elments */
+#perf-item1 > p{
+    font-family: "Libre Baskerville", serif;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 700;
+    color: rgb(37, 45, 65);
+    margin-bottom: 20px;
+}
+
+#perf-item1 > h3{
+    font-family: "Libre Baskerville", serif;
+    font-size: 48px;
+    line-height: 67px;
+    color: rgb(37, 45, 65);
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+#perf-item1 > p:last-child{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    line-height: 28px;
+    font-weight: 400;
+    color: rgb(58, 70, 100);
+    margin-top: -10px;
+}
+
+.perf-item2 > h5{
+    font-family: "Libre Baskerville", serif;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 700;
+    color: rgb(37, 45, 65);
+}
+
+.perf-item2 > p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    line-height: 28px;
+    font-weight: 400;
+    color: rgb(58, 70, 100);
+    margin-top: 5px;
+}
+
+.perf-item2 > img{
+    margin-bottom: 10px;
+}
+
+/* Our Stats container */
+#our-stats{
+    background-color: #070a00;
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-wrap-mobile */
+    justify-content: center;
+    align-items: center;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    width: 100%;
+    gap:9%;
+}
+
+.our-stats-container{
+    width: 35%;
+    min-width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.our-stats-img{
+    width: 100%;
+}
+
+.our-stats-text{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.ost1 > .number, .ost2 >.number{
+    color: white;
+    font-size: 69px;
+    line-height: 69px;
+    font-weight: 700;
+}
+
+.ost1 >p:last-child , .ost2 >p:last-child{
+    color: rgb(255, 103, 128);
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 48px;
+    
+}
+
+/* Our planners section */
+#our-planners{
+    background-color:white;
+    width: 100%;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.our-planners-container{
+    width: 86%;
+    margin: auto;
+}
+
+
+.our-planners-container-2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.our-planners-container > h5{
+    font-family: "Libre Baskerville", serif;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 700;
+    color: rgb(37, 45, 65);
+    margin-bottom: 25px;
+}
+.our-planners-container > h2{
+    font-family: "Libre Baskerville", serif;
+    font-size: 48px;
+    line-height: 62px;
+    font-weight: 700;
+    color: rgb(37, 45, 65);
+    margin-bottom: 23px;
+}
+.our-planners-container > p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    line-height: 28px;
+    font-size: 15px;
+    color: rgb(58, 70, 100);
+    width: 600px;
+    padding-bottom: 30px; /* Adjust this when necessary */
+}
+
+.our-planners-items{
+    width: 23.5%;
+}
+
+.our-planners-items > .op-img{
+    width: 100%;
+}
+
+.op-img > img{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 15px;
+}
+
+.op-text{
+    text-align: center;
+}
+
+.op-text > h3{
+    font-family: "Libre Baskerville", serif;
+    font-weight: 700;
+    color: rgb(37, 45, 65);
+    line-height: 24px;
+    font-size: 20px;
+
+}
+.op-text > p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: rgb(58, 70, 100);
+    font-size: 15px;
+    line-height: 28px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.op-text > .g-f-icons > .fa-brands{
+    color:white;
+    background-color: #ff6780;;
+    padding: 7px;
+    padding-left: 9px;
+    padding-right: 9px;
+    border-radius: 48%;
+    margin-right: 10px;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+}
+
+.op-text > .g-f-icons > .fa-facebook-f{
+    padding: 7px;
+    padding-left: 11px;
+    padding-right: 11px;
+    border-radius: 200px;
+}
+
+.op-text > .g-f-icons > .fa-instagram{
+    padding: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 100px;
+}

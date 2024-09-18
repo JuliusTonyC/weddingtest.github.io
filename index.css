@@ -1,0 +1,846 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-image: linear-gradient(rgba(37, 45, 65, 0.7), rgba(37, 45, 65, 0.7)), url('https://websitedemos.net/wedding-planner-04/wp-content/uploads/sites/147/2019/11/weeding-bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 120vh;
+    margin-bottom: 30px;
+    
+}
+
+header > nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    margin: auto;
+}
+
+nav > .planners {
+    margin-top: 29px;
+}
+
+nav > ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 25px;
+    margin-right: 15px;
+}
+
+nav > ul > li {
+    list-style-type: none;
+}
+
+nav > ul > li > a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 50px;
+    margin-left: 28px;
+    transition: color .3s;
+}
+
+nav > ul > li > a.active {
+    color: rgb(255, 67, 98);
+}
+
+nav > ul > li > a:hover {
+    color: rgb(255, 67, 98);
+}
+
+.hero-text {
+    text-align: center;
+    color: white;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 700;
+    margin-top: 9.8rem;
+}
+
+.hero-text > img {
+    margin-bottom: 26px;
+}
+
+.hero-text > h5 {
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 5px;
+}
+
+.hero-text > h1 {
+    font-size: 130px;
+    line-height: 140px;
+    margin-bottom: 20px;
+}
+
+.hero-text > h3 {
+    font-size: 30px;
+    line-height: 39px;
+    font-weight: 400;
+}
+
+/* Responsive Styles */
+
+/* For tablets */
+/* @media (max-width: 768px) {
+    header {
+        height: auto;
+        margin-bottom: 15px;
+    }
+
+    header > nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav > ul {
+        flex-direction: column;
+        margin-top: 15px;
+    }
+
+    nav > ul > li > a {
+        margin-left: 0;
+        margin-bottom: 10px;
+        font-size: 16px;
+    }
+
+    .hero-text {
+        margin-top: 5rem;
+    }
+
+    .hero-text > h1 {
+        font-size: 80px;
+        line-height: 90px;
+    }
+
+    .hero-text > h3 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+} */
+
+/* For mobile phones */
+/* @media (max-width: 480px) {
+    header {
+        height: auto;
+        padding: 20px 0;
+        width: 100vw;
+    }
+
+    header > nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav > .planners {
+        margin-top: 10px;
+    }
+
+    nav > ul {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10px;
+    }
+
+    nav > ul > li > a {
+        margin-left: 0;
+        margin-bottom: 5px;
+        font-size: 14px;
+    }
+
+    .hero-text {
+        margin-top: 3rem;
+        padding: 0 20px;
+    }
+
+    .hero-text > h5 {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .hero-text > h1 {
+        font-size: 50px;
+        line-height: 60px;
+    }
+
+    .hero-text > h3 {
+        font-size: 20px;
+        line-height: 26px;
+    }
+}
+ */
+
+
+
+
+
+
+
+
+
+
+
+/* Customize button part */
+#customize-button{
+    width: 8.2rem;
+    height: 3rem;
+    position: fixed;
+    right: 0;
+    top: 33.7vh;
+    background-color: white;
+    border: white;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+
+}
+
+#customize-button > .customize-items2{
+    color: #040f27;
+    font-family: "dm sans" , serif;
+    font-size: 15px;
+    line-height: 30px;
+    font-weight: 500; 
+    /* padding-left: 7px; */
+}
+
+#customize-button > .customize-items1{
+    color: #2563eb;
+    font-size: 16px;
+}
+
+
+#customize-button:hover > .customize-items1,
+#customize-button:hover > .customize-items2 {
+    color: white;
+}
+
+#customize-button:hover {
+    background-color: #2563eb;
+}
+
+/* Continue from here later */
+
+
+/* Put another container inside the exclusive container and give it a width of 85% and then margin of auto..
+
+edit other selectors withing the new div so that they work well
+*/
+
+#exclusive{
+    background-color: #f6f6f6;
+    padding-top: 120px;
+}
+
+#exclusive > #exclusive-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+
+}
+
+#exclusive > #exclusive-container > .exclusive-text{
+    width: 36%;
+    /* display: flex;
+    flex-direction: column; */
+}
+
+/*  come back and check this code out */
+
+#exclusive > #exclusive-container > .exclusive{
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 700;
+    color: rgb(37, 45, 65);
+}
+
+#exclusive > #exclusive-container > .exclusive > h5{
+    line-height: 22px;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+#exclusive > #exclusive-container >.exclusive > h2{
+    line-height: 66px;
+    font-size: 48px;
+    /* margin-top: 10px; */
+}
+
+#exclusive > #exclusive-container > .exclusive > p{
+    line-height: 28px;
+    font-size: 15px;
+    color:rgb(58, 70, 100);
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 15px;
+}
+
+#exclusive > #exclusive-container > .exclusive > button{
+    background-color: transparent;
+    color: rgb(58, 70, 100);
+    font-weight: 600;
+    font-size: 14px;
+    font-family: 'Montserrat' ,serif;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border: 2px solid #ff6780;
+    margin-top: 20px;
+    transition: background-color .3s;
+}
+
+#exclusive > #exclusive-container > .exclusive > button:hover{
+    background-color: rgb(255, 67, 98);
+    border: 2px solid rgb(255, 67, 98);
+}
+
+
+/* exclusive line */
+#exclusive > #exclusive-line{
+    width: 57%;
+    margin: auto;
+    border-top: 1px solid #dddddd;
+    margin-top: 6%;
+    padding-bottom: 6%;
+
+}
+
+#exclusive-us-container{
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center;
+    align-items: center; */
+    gap: 4%;
+    width: 85%;
+    margin: auto;
+    padding-bottom: 8%;
+    margin-bottom: 30px;
+}
+
+
+
+#exclusive-us-container > .exclusive-us-content{
+    display: flex;
+    width: 30%;
+    gap: 10px;
+}
+
+
+#exclusive-us-container > .exclusive-us-content >.exclusive-us-icon > img{
+    margin-right: 10px;
+}
+
+
+#exclusive-us-container > .exclusive-us-content >.exclusive-us-text > h4{
+    color: rgb(37, 45, 65);
+    font-family: 'Libre Baskerville' , serif;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 700;
+    margin-bottom: 9px;
+}
+
+
+#exclusive-us-container > .exclusive-us-content >.exclusive-us-text > p{
+    color: rgb(58, 70, 100);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    line-height: 28px;
+    font-weight: 400;
+}
+
+
+
+/* We design websites that are grand section */
+#grand-section{
+    background-image: url("https://websitedemos.net/wedding-planner-04/wp-content/uploads/sites/147/2019/11/hero.jpg");
+    width: 100%;
+    height: 111vh;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 6.1%;
+}
+
+#grand-text{
+    color: white;
+    width: 600px;
+}
+
+#grand-followus{
+    color: white;
+}
+
+
+#grand-text > h5{
+    font-family: "Libre Baskerville", serif;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 700;
+    margin-top: -20px;
+
+}
+
+#grand-text > h2{
+    font-family: "Libre Baskerville", serif;
+    font-size: 48px;
+    line-height: 62px;
+    font-weight: 700;
+    margin-top: 22px;
+}
+
+#grand-text > p , #grand-followus > p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    line-height: 28px;
+    font-weight: 400;
+    margin-top: 22px;
+}
+
+#grand-followus > p{
+    margin-top: 10px;
+}
+
+#grand-followus > h3{
+    font-family: "Libre Baskerville", serif;
+    color: rgb(255, 103, 128);
+    font-size: 30px;
+    line-height: 39px;
+    font-weight: 400;
+    margin-top: 45px;
+}
+
+#grand-followus > .g-f-icons > .fa-brands{
+    color:#ff6780;
+    background-color: white;
+    padding: 10px;
+    border-radius: 48%;
+    margin-right: 10px;
+    font-size: 18px;
+    line-height: 18px;
+    margin-top: 20px;
+}
+
+#grand-followus > .g-f-icons > .fa-facebook-f{
+    padding: 10px;
+    padding-left: 13px;
+    padding-right: 13px;
+    border-radius: 100px;
+}
+
+#grand-followus > .g-f-icons > .fa-instagram{
+    padding: 10px;
+    padding-left: 11px;
+    padding-right: 11px;
+    border-radius: 100px;
+}
+
+
+/* Wedding Des Section using Flex */
+/* #wedding-des {
+    background-color: #f6f6f6;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 30px;
+    padding: 40px;
+    width: 100%;
+}
+
+#wedding-des1, #wedding-des2, #wedding-des3 {
+    flex: 1;
+    max-width: 30%;
+}
+
+#wedding-des2 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#wedding-des2 > .wedding-des-2 {
+    width: 100%;
+}
+
+#wedding-des3 h5 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+#wedding-des3 h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+#wedding-des3 p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+#wedding-des3 button {
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+
+ */
+
+
+
+/* Wedding Destination Section*/
+/* Come back later when I've practiced grid well and do this one */
+/* 
+#destination{
+    width: 100%;
+    height: 130vh;
+    background-color: #dddddd;
+
+}  */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+
+
+/* #destination > .destination-container{
+    display: grid;
+}
+
+.items{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+} */
+
+/* .pic1{
+    grid-column: 1/3;
+    grid-row: 1/5;
+}
+
+.pic2{
+    grid-column: 3/4;
+    grid-row: 1/2;
+} */
+
+
+
+
+
+/* Services Section */
+#services{
+    background-image: url("https://websitedemos.net/wedding-planner-04/wp-content/uploads/sites/147/2019/11/pic16.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 137vh;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 700;
+}
+
+#services > img{
+    margin-bottom: 30px;
+}
+
+#services > h5{
+    font-size: 18px;
+    line-height: 22px;
+    font-family: 'Libre Baskerville', sans-serif;
+    margin-bottom: 20px;   
+}
+
+#services > h2{
+    font-size: 120px;
+    line-height: 168px;
+    margin-bottom: 20px;
+}
+
+#services > h3{
+    color: rgb(255, 103, 128);
+    font-size: 30px;
+    line-height: 39px;
+    font-weight: 400;
+    margin-bottom: 45px;
+}
+
+#services > button{
+    font-family: 'Montserrat', sans-serif;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    padding: 18px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 14px;  
+    transition: background-color .3s, color .3s;
+}
+
+#services > button:hover{
+    background-color: #fff;
+    color: rgb(58, 70, 100);   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Joey and Phoebe Section */
+#joey-phoebe{
+    background-color: #f6f6f6;
+    width: 100%;
+    height: 83vh;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#joey-phoebe > .joey-phoebe{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+    text-align: center;
+}
+
+#joey-phoebe > .joey-phoebe > img{
+    margin-bottom: 30px;
+}
+
+#joey-phoebe > .joey-phoebe > p{
+    font-family: 'montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 45px;
+    color: rgb(58, 70, 100);
+}
+
+
+#joey-phoebe > .joey-phoebe > p:last-child{
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: rgb(255, 103, 128);
+    margin-top: 50px;
+}
+
+
+/* Improved before footer section aka pink- white container */
+#pink-white-container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.pw-contents{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex: 1 1 50%; 
+   /* flex-grow: 1; flex-shrink: 1; flex-basis: 50% */
+   min-width: 500px;  
+   /* Prevents shrinking below this width */
+    color: white;
+}
+
+.pw-contents1{
+    height: 120vh;
+    background-color: #ff4362;
+}
+
+.pw-contents2{
+    height: 120vh;
+}
+
+.pw-contents1 > img{
+    margin-bottom: 20px;
+}
+
+.pw-contents > h2{
+    font-family: "Libre Baskerville", serif;
+    font-size: 48px;
+    line-height: 62px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.pw-contents > p{
+    width: 500px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28px;
+    margin-bottom: 20px;
+}
+
+.pw-contents> .g-f-icons > .fa-brands{
+    color:#ff6780;
+    background-color: white;
+    padding: 10px;
+    border-radius: 48%;
+    margin-right: 10px;
+    font-size: 18px;
+    line-height: 18px;
+    margin-top: 20px;
+}
+
+.pw-contents> .g-f-icons > .fa-facebook-f{
+    padding: 10px;
+    padding-left: 13px;
+    padding-right: 13px;
+    border-radius: 100px;
+}
+
+.pw-contents> .g-f-icons > .fa-instagram{
+    padding: 10px;
+    padding-left: 11px;
+    padding-right: 11px;
+    border-radius: 100px;
+}
+
+.pw-contents2{
+    color: black;
+}
+
+.pw-contents2 > h2 {
+    color: rgb(37, 45, 65);
+}
+
+.pw-contents2 > P{
+    color: rgb(58, 70, 100);
+    line-height: 28px;
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 25px;  
+}
+
+.pw-contents2 > input{
+    font-family: 'Montserrat', sans-serif;
+    width: 480px;
+    height: 2.8rem;
+    font-size: 15px;
+    line-height: 15px;
+    padding: 5px;
+    padding-left: 8px;
+    margin-bottom: 20px;
+    background-color: #fafafa;
+    border: 1px solid #dddddd;
+    outline: none;
+}
+
+.pw-contents2 > input:focus, .pw-contents2 >textarea:focus{
+    border: 1px dotted #666;
+    border-left: 1px solid #666;
+}
+
+.pw-contents2 > textarea{
+    width: 480px;
+    height: 7.5rem;
+    font-size: 16px;
+    padding: 5px;
+    padding-top: 20px;
+    padding-left: 8px;
+    font-size: 15px;
+    line-height: 15px;
+    margin-bottom: 20px;   
+    font-family: 'Montserrat', sans-serif;
+    background-color: #fafafa;
+    border: 1px solid #dddddd;
+    outline: none;
+}
+
+.pw-contents2 > button{
+    background-color: transparent;
+    padding: 18px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border: 2px solid #ff6780;
+    color: #252d41;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    line-height: 14px;
+    font-size: 14px;
+}
+
+.pw-contents2 > button:hover{
+    background-color: #ff4362;
+    border: 2px solid #ff4362;
+    color: white;
+}
+
+/* Footer Section */
+footer{
+    background-color: #252d41;
+    color: white;
+    padding: 53px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer > p{
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    text-align: center;
+}
+
+footer > p:last-child{
+    font-size: 15px;
+}
+
+

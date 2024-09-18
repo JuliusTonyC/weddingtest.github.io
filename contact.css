@@ -1,0 +1,235 @@
+header {
+    background-image: linear-gradient(rgba(37, 45, 65, 0.61), rgba(37, 45, 65, 0.658)), url('https://websitedemos.net/wedding-planner-04/wp-content/uploads/sites/147/2017/12/pic46-free-img.jpg');
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 83vh;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.hero-text{
+    margin-top: 8.8rem;
+}
+
+.hero-text >h1{
+    font-size: 80px;
+    line-height: 112px;
+    font-weight: 700;
+    font-family: "Libre Baskerville", serif;
+    margin-top: 20px;
+}
+
+
+/* Contact Form Section */
+#contact-form{
+    background-color: #f6f6f6;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 6rem;
+    margin-bottom: 30px;
+}
+
+
+.cf-container{
+    width: 85%;
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 500px; /* Adjust when necessary */
+    justify-content: center;
+    align-items: center;
+    gap: 7%;
+    margin-bottom: 10px;
+}
+
+
+
+.cf-items{
+    width: 45%;
+    padding-top: 7%;
+}
+
+.cf-items > h2{
+    font-family: "Libre Baskerville", serif;
+    font-size: 30px;
+    line-height: 39px;
+    font-weight: 400;
+    color: rgb(37, 45, 65);
+    margin-bottom: 20px;
+}
+
+.cf-items > p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    line-height: 28px;
+    color: rgb(58, 70, 100);
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.cf-items > h3{
+    font-family: "Libre Baskerville", serif;
+    font-size: 18px;
+    line-height: 22px;
+    color: rgb(37, 45, 65);
+    font-weight: 700;   
+
+}
+
+
+.cf-items > .g-f-icons > .fa-brands{
+    color:white;
+    background-color: #ff6780;;
+    padding: 10px;
+    border-radius: 48%;
+    margin-right: 18px;
+    font-size: 20px;
+    line-height: 18px;
+    margin-top: 40px;
+}
+
+.cf-items > .g-f-icons > .fa-facebook-f{
+    padding: 11px;
+    padding-left: 14px;
+    padding-right: 14px;
+    border-radius: 100px;
+}
+
+.cf-items > .g-f-icons > .fa-instagram{
+    padding: 10px;
+    padding-left: 11px;
+    padding-right: 11px;
+    border-radius: 100px;
+}
+
+.cf-items > input{
+    font-family: 'Montserrat', sans-serif;
+    width: 540px;
+    height: 2.8rem;
+    font-size: 15px;
+    line-height: 15px;
+    padding: 5px;
+    padding-left: 8px;
+    margin-bottom: 20px;
+    background-color: #fafafa;
+    border: 1px solid #dddddd;
+    outline: none;
+}
+
+.cf-items > input:focus, .cf-items >textarea:focus{
+    border: 1px dotted #666;
+    border-left: 1px solid #666;
+}
+
+.cf-items > textarea{
+    width: 540px;
+    height: 7.5rem;
+    font-size: 16px;
+    padding: 5px;
+    padding-top: 20px;
+    padding-left: 8px;
+    font-size: 15px;
+    line-height: 15px;
+    margin-bottom: 20px;   
+    font-family: 'Montserrat', sans-serif;
+    background-color: #fafafa;
+    border: 1px solid #dddddd;
+    outline: none;
+}
+
+.cf-items > button{
+    background-color: transparent;
+    padding: 18px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border: 2px solid #ff6780;
+    color: #252d41;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    line-height: 14px;
+    font-size: 14px;
+}
+
+.cf-items > button:hover{
+    background-color: #ff4362;
+    border: 2px solid #ff4362;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Contact us section */
+#contact-us{
+    width: 100%;
+    height: 57vh;
+    margin-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;   
+}
+
+#contact-us-line{
+    width: 115px;
+    border-top: 2px solid #ff6780;
+    margin-bottom: 30px;
+}
+
+.contact-us-items{
+    background-color: #f6f6f6;
+    width: 26.5%;
+    height: 350px;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-left: 30px;
+    font-family: "Libre Baskerville", serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact-us-items > img{
+    margin-bottom: 30px;
+}
+
+.contact-us-items > h2{
+    color: rgb(37, 45, 65);
+    font-size: 30px;
+    line-height: 39px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.contact-us-items > p{
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 700;
+    color: rgb(37, 45, 65);
+    width: 310px;
+}
+
+
+/* Map */
+#map{
+    margin-bottom: 20px;
+}

@@ -1,0 +1,134 @@
+header {
+    background-image: linear-gradient(rgba(37, 45, 65, 0.7), rgba(37, 45, 65, 0.7)), url('https://websitedemos.net/wedding-planner-04/wp-content/uploads/sites/147/2020/02/wedding-venue-img.jpg');
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 83vh;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.hero-text{
+    margin-top: 8.8rem;
+}
+
+.hero-text >h1{
+    font-size: 80px;
+    line-height: 112px;
+    font-weight: 700;
+    font-family: "Libre Baskerville", serif;
+    margin-top: 20px;
+}
+
+
+/* Venue Section */
+#venue{
+    width: 100%;
+    background-color: #f8f3fa;
+    margin-bottom: 30px;
+}
+
+#venue , .venue-items{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#venue-container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 91%;
+    justify-content: center;
+    align-items: center;
+    padding-top: 7%;
+}
+
+
+.venue-items{
+    width: 46%;
+    text-align: center;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 40px;
+    padding-top: 20px;
+    padding-bottom: 3rem;
+    background-color: white;
+}
+
+#venue-line{
+    width: 115px;
+    border-top: 2px solid #ff6780;
+    margin-top: 30px;
+}
+
+.venue-items > img{
+    width: 92%;
+    min-width: 300px;
+    height: 347px;
+}
+
+.venue-items > h4{
+    font-family: "Libre Baskerville", serif;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 700;
+    color:rgb(37, 45, 65);
+    margin-top: 30px;
+}
+
+.venue-items > h3{
+    font-family: "Libre Baskerville", serif;
+    font-size: 30px;
+    line-height: 39px;
+    font-weight: 400;
+    color: rgb(37, 45, 65);
+    margin-top: 20px;
+
+}
+
+.venue-items > p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28px;
+    color: rgb(58, 70, 100);
+    width: 92%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.venue-items > h5{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    line-height: 28px;
+    font-weight: 700;
+    color: rgb(58, 70, 100);
+}
+
+.venue-items > h5 > span{
+    font-weight: 400;
+}
+
+
+#venue > button{
+    background-color: transparent;
+    border: 2px solid #ff6780;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 700;
+    padding: 20px;
+    padding-left:50px;
+    padding-right: 50px;
+    margin-top: 1.5rem;
+    margin-bottom: 6rem;
+    color:rgb(58, 70, 100);
+    transition: background-color .3s, border .3s;
+}
+
+#venue > button:hover{
+    background-color: rgb(255, 67, 98);
+    border: 2px solid rgb(255, 67, 98);
+}
